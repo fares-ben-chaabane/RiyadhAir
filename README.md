@@ -192,9 +192,6 @@ The project follows Clean Architecture principles with clear separation of conce
 - **[HowToArchitecture.md](HowToArchitecture.md)** - Project architecture and feature development
 - **[HowToQuality.md](HowToQuality.md)** - Quality tools and best practices
 
-### Project Structure
-- **[Project_Structure.md](Project_Structure.md)** - Detailed project organization and file structure
-
 ### API Documentation
 - Generated documentation available in `build/dokka/html/` after running Dokka
 
@@ -296,13 +293,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Discussions**: Use GitHub Discussions for questions and ideas
 
 ### Contact
-- **Project Maintainer**: [Your Name]
-- **Email**: [your.email@example.com]
-- **GitHub**: [@your-username]
+- **Project Maintainer**: [Fares Ben Chaabane]
+- **Email**: [fares.benchaabane.pro@gmail.com]
+- **GitHub**: [@fares-benchaabane]
 
 ---
 
 **Built with ❤️ using modern Android development practices**
 
-*Last updated: December 2024*
+*Last updated: August 2025*
 
