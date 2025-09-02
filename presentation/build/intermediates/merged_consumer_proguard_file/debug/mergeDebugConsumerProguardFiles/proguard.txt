@@ -1,0 +1,8 @@
+-keep,allowobfuscation,allowshrinking class fr.benchaabane.riyadhair.presentation.account.AccountViewModel
+-keep,allowobfuscation,allowshrinking class fr.benchaabane.riyadhair.presentation.account.AccountViewModel
+-keep,allowobfuscation,allowshrinking class fr.benchaabane.riyadhair.presentation.home.HomeViewModel
+-keep,allowobfuscation,allowshrinking class fr.benchaabane.riyadhair.presentation.home.HomeViewModel
+-keep,allowobfuscation,allowshrinking class fr.benchaabane.riyadhair.presentation.reservations.ReservationsViewModel
+-keep,allowobfuscation,allowshrinking class fr.benchaabane.riyadhair.presentation.reservations.ReservationsViewModel
+-keep,allowobfuscation,allowshrinking class fr.benchaabane.riyadhair.presentation.search.SearchViewModel
+-keep,allowobfuscation,allowshrinking class fr.benchaabane.riyadhair.presentation.search.SearchViewModel

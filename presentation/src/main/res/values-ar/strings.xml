@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">طيران الرياض</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera_rationale">الكاميرا مطلوبة لمسح منطقة القراءة الآلية في جواز السفر.</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_search">البحث</string>
+    <string name="nav_reservations">الحجوزات</string>
+    <string name="nav_account">الحساب</string>
+    <string name="back">رجوع</string>
+    
+    <!-- Common Actions -->
+    <string name="search">بحث</string>
+    <string name="confirm">تأكيد</string>
+    <string name="cancel">إلغاء</string>
+    <string name="continue_action">متابعة</string>
+    <string name="save">حفظ</string>
+    <string name="close">إغلاق</string>
+    <string name="retry">إعادة المحاولة</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome">أهلاً وسهلاً،</string>
+    <string name="miles">الأميال</string>
+    <string name="xp">النقاط</string>
+    <string name="our_partners">شركاؤنا</string>
+    <string name="go_further">للذهاب أبعد</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="offers_location">عروض باريس (PAR)</string>
+    
+    <!-- Search Screen -->
+    <string name="search_flights">البحث عن رحلات</string>
+    <string name="where_do_you_want_to_go">إلى أين تريد أن تذهب؟</string>
+    <string name="departure_from">المغادرة من</string>
+    <string name="destination_to">إلى الوجهة</string>
+    <string name="swap_destinations">تبديل</string>
+    <string name="adults">البالغون</string>
+    <string name="children">الأطفال</string>
+    <string name="infants">الرضع</string>
+    <string name="outbound">الذهاب</string>
+    <string name="return_flight">العودة</string>
+    <string name="select_dates">اختر تواريخ سفرك</string>
+    <string name="select_departure_destination">اختر المغادرة أو الوجهة</string>
+    
+    <!-- Flight Search Results -->
+    <string name="outbound_flights">رحلات الذهاب</string>
+    <string name="return_flights">رحلات العودة</string>
+    <string name="selected_outbound_flight">رحلة الذهاب المحددة</string>
+    <string name="selected_return_flight">رحلة العودة المحددة</string>
+    <string name="continue_to_booking">متابعة إلى الحجز</string>
+    <string name="choose_return_flight">اختر رحلة العودة</string>
+    <string name="finalize_selection">إنهاء الاختيار</string>
+    <string name="route_format">%2$s ← %1$s</string>
+    
+    <!-- Flight Card -->
+    <string name="duration">المدة</string>
+    <string name="aircraft">الطائرة</string>
+    <string name="available_seats">%1$d مقعد</string>
+    <string name="flight_info_format">%1$s: %2$s</string>
+    <string name="flight_description">الرحلة</string>
+    
+    <!-- Checkout Screen -->
+    <string name="payment">الدفع</string>
+    <string name="journey_summary">ملخص الرحلة</string>
+    <string name="trip_type">نوع الرحلة</string>
+    <string name="cabin_class">درجة السفر</string>
+    <string name="round_trip">ذهاب وعودة</string>
+    <string name="one_way">ذهاب فقط</string>
+    <string name="outbound_flight">رحلة الذهاب</string>
+    <string name="return_flight_label">رحلة العودة</string>
+    <string name="airline_aircraft_format">%1$s • %2$s</string>
+    
+    <!-- Account Screen -->
+    <string name="flyingblue">فلاينغ بلو</string>
+    <string name="airfrance">الخطوط الجوية الفرنسية</string>
+    <string name="klm">كيه إل إم</string>
+    <string name="qr_code">رمز الاستجابة السريعة</string>
+    <string name="account_background">خلفية الحساب</string>
+    <string name="miles_count">عدد الأميال</string>
+    <string name="miles_validity">صالحة حتى</string>
+    <string name="experience_progression">تقدم تجربة الطيران</string>
+    <string name="experience_progression_disclaimer">نقاط الخبرة المتبقية للفضة</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_departure">المغادرة</string>
+    <string name="cd_arrival">الوصول</string>
+    <string name="cd_search">البحث</string>
+    <string name="cd_flight">الرحلة</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_partner_image">صورة %1$s</string>
+    <string name="cd_offer_image">صورة %1$s</string>
+    <string name="cd_destination_image">صورة %1$s</string>
+    <string name="cd_account_background">خلفية الحساب</string>
+    
+    <!-- Passport/MRZ -->
+    <string name="scan_mrz">مسح منطقة القراءة الآلية</string>
+    <string name="scan_mrz_description">ضع منطقة القراءة الآلية (MRZ) في جواز السفر في الإطار لمسح المعلومات تلقائياً.</string>
+    <string name="scan_demo">مسح (تجريبي)</string>
+    
+    <!-- Date Selection -->
+    <string name="select_dates_title">اختر تواريخك</string>
+    <string name="outbound_optional_return">تاريخ الذهاب (اختياري: العودة)</string>
+    <string name="outbound_and_return">تاريخ الذهاب والعودة</string>
+    
+    <!-- Passenger Selection -->
+    <string name="passengers_and_cabin">المسافرون ودرجة السفر</string>
+    <string name="passengers">إضافة الركاب</string>
+    <string name="cabin">المقصورة</string>
+    <string name="cabin_type">نوع المقصورة</string>
+    <string name="passengers_adult">الكبار</string>
+    <string name="passengers_enfant">أطفال</string>
+    <string name="passengers_baby">أطفال صغار</string>
+    
+    <!-- Offers -->
+    <string name="best_offers">أفضل العروض</string>
+    <string name="view_all">عرض الكل →</string>
+    <string name="discover_best_offers">اكتشف أفضل عروضنا</string>
+    <plurals name="offers_disclaimer">
+        <item quantity="zero">%d لا توجد وجهات استثنائية في انتظارك</item>
+        <item quantity="one"> %d وجهة استثنائية في انتظارك</item>
+        <item quantity="two">%d وجهتان استثنائيتان في انتظارك</item>
+        <item quantity="few">%d هناك عدد قليل من الوجهات الاستثنائية في انتظارك</item>
+        <item quantity="many">%d في انتظارك العديد من الوجهات الاستثنائية</item>
+    </plurals>
+    
+    <!-- Loading States -->
+    <string name="loading">جاري التحميل…</string>
+    <string name="loading_offers">جاري تحميل العروض…</string>
+    
+    <!-- Error States -->
+    <string name="error_occurred">حدث خطأ</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    
+    <!-- Animations -->
+    <string name="elevation_animation">الارتفاع</string>
+    <string name="border_width_animation">عرض الحدود</string>
+    <string name="scale_animation">المقياس</string>
+    <string name="rotation_x_animation">دوران س</string>
+    <string name="rotation_y_animation">دوران ص</string>
+    <string name="content_alpha_animation">شفافية محتوى الحساب</string>
+    <string name="carousel_animation">دوارة الوجهات</string>
+    <string name="xp_progress_animation">تقدم النقاط</string>
+    <string name="indicator_alpha_animation">شفافية المؤشر%1$d</string>
+    
+    <!-- Placeholders and Symbols -->
+    <string name="location_symbol">📍</string>
+    <string name="flight_symbol">✈️</string>
+    <string name="placeholder_square">⬜</string>
+    
+    <!-- Additional strings -->
+    <string name="to_destination">إلى الوجهة</string>
+    <string name="select_travel_dates">اختر تواريخ سفرك</string>
+    <string name="select_your_dates">اختر تواريخك</string>
+    <string name="discover_best_offers_text">اكتشف أفضل\nعروضنا</string>
+    <string name="trip_type_text">نوع الرحلة</string>
+    <string name="round_trip_text">ذهاب وعودة</string>
+    <string name="one_way_text">ذهاب فقط</string>
+    <string name="cabin_class_text">درجة السفر</string>
+    <string name="selected_outbound_flight_label">رحلة الذهاب المحددة</string>
+    <string name="selected_return_flight_label">رحلة العودة المحددة</string>
+    <string name="continue_to_reservation">متابعة إلى الحجز</string>
+    <string name="choose_return_flight_text">اختر رحلة العودة</string>
+    <string name="finalize_selection_text">إنهاء الاختيار</string>
+    <string name="outbound_flight_title">رحلة الذهاب</string>
+    <string name="return_flight_title">رحلة العودة</string>
+    <string name="choose_departure">اختر المغادرة</string>
+    <string name="choose_destination">اختر الوجهة</string>
+    <string name="search_destination">البحث عن وجهة...</string>
+    <string name="go_further_text">للذهاب أبعد</string>
+    <string name="travel_dates">تواريخ السفر</string>
+    <string name="outbound_date_optional_return">تاريخ الذهاب (اختياري: العودة)</string>
+    <string name="traveler_information">معلومات المسافر</string>
+    <string name="passenger_information">املأ معلومات الركاب</string>
+    <string name="choose_departure_date">اختر تاريخ المغادرة</string>
+    <string name="choose_return_date">اختر تاريخ العودة</string>
+    <string name="exceptional_destinations_count">%1$d وجهة استثنائية في انتظارك</string>
+    <string name="exceptional_destinations">وجهات استثنائية في انتظارك</string>
+    <string name="view_all_text">عرض الكل</string>
+    <string name="search_flights_text">البحث عن رحلات</string>
+    <string name="loading_offers_text">جاري تحميل العروض...</string>
+    <string name="starting_from">ابتداءً من %1$s ريال</string>
+    <string name="passport_information">معلومات جواز السفر</string>
+    <string name="optional_info_recommended">هذه المعلومات اختيارية ولكنها موصى بها لتسهيل إجراءات تسجيل الوصول.</string>
+    
+    <!-- Airport names -->
+    <string name="charles_de_gaulle">شارل ديغول</string>
+    <string name="marseille_provence">مرسيليا بروفانس</string>
+    <string name="cairo_international">القاهرة الدولي</string>
+    
+    <!-- Formatting -->
+    <string name="price_format">%1$s ريال</string>
+    <string name="expiry_date_format">%1$s</string>
+</resources>

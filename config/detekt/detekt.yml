@@ -1,0 +1,13 @@
+# Minimal Detekt configuration
+config:
+  validation: true
+  warningsAsErrors: false
+
+processors:
+  active: true
+
+console-reports:
+  active: true
+
+output-reports:
+  active: true

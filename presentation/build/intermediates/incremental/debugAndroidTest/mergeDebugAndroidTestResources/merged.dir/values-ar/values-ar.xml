@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="offers_disclaimer">
+        <item quantity="zero">%d لا توجد وجهات استثنائية في انتظارك</item>
+        <item quantity="one"> %d وجهة استثنائية في انتظارك</item>
+        <item quantity="two">%d وجهتان استثنائيتان في انتظارك</item>
+        <item quantity="few">%d هناك عدد قليل من الوجهات الاستثنائية في انتظارك</item>
+        <item quantity="many">%d في انتظارك العديد من الوجهات الاستثنائية</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تم"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"مفعّلة"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فضاء"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"طلب بحث"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"البحث"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"بحث صوتي"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="account_background">خلفية الحساب</string>
+    <string name="adults">البالغون</string>
+    <string name="aircraft">الطائرة</string>
+    <string name="airfrance">الخطوط الجوية الفرنسية</string>
+    <string name="airline_aircraft_format">%1$s • %2$s</string>
+    <string name="app_name">طيران الرياض</string>
+    <string msgid="389117264260014992" name="autofill">"الملء التلقائي"</string>
+    <string name="available_seats">%1$d مقعد</string>
+    <string name="back">رجوع</string>
+    <string name="best_offers">أفضل العروض</string>
+    <string name="border_width_animation">عرض الحدود</string>
+    <string name="cabin">المقصورة</string>
+    <string name="cabin_class">درجة السفر</string>
+    <string name="cabin_class_text">درجة السفر</string>
+    <string name="cabin_type">نوع المقصورة</string>
+    <string name="cairo_international">القاهرة الدولي</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"ردّ"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"فيديو"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"رفض"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"قطع الاتصال"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"مكالمة واردة"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"مكالمة جارية"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"يتم فحص المكالمة الواردة"</string>
+    <string name="cancel">إلغاء</string>
+    <string name="carousel_animation">دوارة الوجهات</string>
+    <string name="cd_account_background">خلفية الحساب</string>
+    <string name="cd_arrival">الوصول</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_departure">المغادرة</string>
+    <string name="cd_destination_image">صورة %1$s</string>
+    <string name="cd_flight">الرحلة</string>
+    <string name="cd_offer_image">صورة %1$s</string>
+    <string name="cd_partner_image">صورة %1$s</string>
+    <string name="cd_search">البحث</string>
+    <string name="charles_de_gaulle">شارل ديغول</string>
+    <string name="children">الأطفال</string>
+    <string name="choose_departure">اختر المغادرة</string>
+    <string name="choose_departure_date">اختر تاريخ المغادرة</string>
+    <string name="choose_destination">اختر الوجهة</string>
+    <string name="choose_return_date">اختر تاريخ العودة</string>
+    <string name="choose_return_flight">اختر رحلة العودة</string>
+    <string name="choose_return_flight_text">اختر رحلة العودة</string>
+    <string name="close">إغلاق</string>
+    <string msgid="406453423630273620" name="close_drawer">"إغلاق قائمة التنقل"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"إغلاق الورقة"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">تفعيل</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">‏تفعيل خدمات Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">تثبيت</string>
+    <string name="common_google_play_services_install_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">‏مدى توفّر خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطأ في خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
+    <string name="common_google_play_services_unsupported_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">تحديث</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="common_signin_button_text">تسجل الدخول</string>
+    <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="confirm">تأكيد</string>
+    <string name="content_alpha_animation">شفافية محتوى الحساب</string>
+    <string name="continue_action">متابعة</string>
+    <string name="continue_to_booking">متابعة إلى الحجز</string>
+    <string name="continue_to_reservation">متابعة إلى الحجز</string>
+    <string msgid="8038256446254964252" name="default_error_message">"إدخال غير صالح"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"نافذة منبثقة"</string>
+    <string name="departure_from">المغادرة من</string>
+    <string name="destination_to">إلى الوجهة</string>
+    <string name="discover_best_offers">اكتشف أفضل عروضنا</string>
+    <string name="discover_best_offers_text">اكتشف أفضل\nعروضنا</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"قائمة منسدلة"</string>
+    <string name="duration">المدة</string>
+    <string name="elevation_animation">الارتفاع</string>
+    <string name="error_occurred">حدث خطأ</string>
+    <string name="exceptional_destinations">وجهات استثنائية في انتظارك</string>
+    <string name="exceptional_destinations_count">%1$d وجهة استثنائية في انتظارك</string>
+    <string name="experience_progression">تقدم تجربة الطيران</string>
+    <string name="experience_progression_disclaimer">نقاط الخبرة المتبقية للفضة</string>
+    <string name="expiry_date_format">%1$s</string>
+    <string name="finalize_selection">إنهاء الاختيار</string>
+    <string name="finalize_selection_text">إنهاء الاختيار</string>
+    <string name="flight_description">الرحلة</string>
+    <string name="flight_info_format">%1$s: %2$s</string>
+    <string name="flight_symbol">✈️</string>
+    <string name="flyingblue">فلاينغ بلو</string>
+    <string name="go_further">للذهاب أبعد</string>
+    <string name="go_further_text">للذهاب أبعد</string>
+    <string msgid="6827826412747255547" name="in_progress">"قيد التقدم"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"تم وضع علامة في المربّع بشكل جزئي"</string>
+    <string name="indicator_alpha_animation">شفافية المؤشر%1$d</string>
+    <string name="infants">الرضع</string>
+    <string name="journey_summary">ملخص الرحلة</string>
+    <string name="klm">كيه إل إم</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="loading_offers">جاري تحميل العروض…</string>
+    <string name="loading_offers_text">جاري تحميل العروض...</string>
+    <string name="location_symbol">📍</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"تصغير البطاقة السفلية"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"إغلاق البطاقة السفلية"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"مقبض السحب"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"توسيع البطاقة السفلية"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"بطاقة سفلية"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"التاريخ الذي تم إدخاله"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"‏التاريخ الذي تم إدخاله: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"‏لا يتوافق التاريخ مع النمط المتوقَّع: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"‏التاريخ غير مسموح به: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"‏التاريخ خارج نطاق السنوات المتوقَّع: ‎%1$s - %2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"التاريخ"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"بدون تاريخ"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"اختيار تاريخ"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"التاريخ المحدَّد"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"‏الاختيار الحالي: %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"‏الانتقال إلى سنة %1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"بدون تاريخ"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"انتقِل للأسفل أو للأعلى لإظهار السنوات السابقة."</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"انتقِل للأسفل أو للأعلى لإظهار السنوات التالية."</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"التبديل إلى وضع \"الإدخال في التقويم\""</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"مرِّر سريعًا لتحديد سنة، أو انقر للرجوع إلى تحديد يوم."</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"التبديل إلى \"وضع إدخال النص\""</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"التغيير إلى الشهر التالي"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"التغيير إلى الشهر السابق"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"التبديل لاختيار سنة"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"اختيار تاريخ"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"اليوم"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"أداة اختيار السنوات مرئية"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"إدخال نطاق زمني غير صالح"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"إدخال التواريخ"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"في النطاق"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"تاريخ الانتهاء"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"انتقِل للأسفل أو للأعلى لإظهار الشهر التالي."</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"انتقِل للأسفل أو للأعلى لإظهار الشهر السابق."</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"تاريخ البدء"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"اختيار التواريخ"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"مربّع حوار"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"مصغَّرة"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"موسَّعة"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"توسيع القائمة المنسدلة أو تصغيرها"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"شريط بحث"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"إغلاق"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"إليك الاقتراحات"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"ص"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"ساعة"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"‏%1$d ساعة"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"اختيار الساعة"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"‏الساعة %1$d"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"الساعات"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"دقيقة"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"اختيار الدقائق"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"‏%1$d دقيقة"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"الدقائق"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"يُرجى اختيار \"ص\" أو \"م\"."</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"م"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"إظهار التلميح"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"تلميح"</string>
+    <string name="marseille_provence">مرسيليا بروفانس</string>
+    <string msgid="8471891128988107974" name="mc2_snackbar_pane_title">"تنبيه"</string>
+    <string name="miles">الأميال</string>
+    <string name="miles_count">عدد الأميال</string>
+    <string name="miles_validity">صالحة حتى</string>
+    <string name="nav_account">الحساب</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_reservations">الحجوزات</string>
+    <string name="nav_search">البحث</string>
+    <string msgid="542007171693138492" name="navigation_menu">"قائمة تنقل"</string>
+    <string msgid="6610465462668679431" name="not_selected">"غير محدّد"</string>
+    <string name="offers_location">عروض باريس (PAR)</string>
+    <string name="one_way">ذهاب فقط</string>
+    <string name="one_way_text">ذهاب فقط</string>
+    <string name="optional_info_recommended">هذه المعلومات اختيارية ولكنها موصى بها لتسهيل إجراءات تسجيل الوصول.</string>
+    <string name="our_partners">شركاؤنا</string>
+    <string name="outbound">الذهاب</string>
+    <string name="outbound_and_return">تاريخ الذهاب والعودة</string>
+    <string name="outbound_date_optional_return">تاريخ الذهاب (اختياري: العودة)</string>
+    <string name="outbound_flight">رحلة الذهاب</string>
+    <string name="outbound_flight_title">رحلة الذهاب</string>
+    <string name="outbound_flights">رحلات الذهاب</string>
+    <string name="outbound_optional_return">تاريخ الذهاب (اختياري: العودة)</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="passenger_information">املأ معلومات الركاب</string>
+    <string name="passengers">إضافة الركاب</string>
+    <string name="passengers_adult">الكبار</string>
+    <string name="passengers_and_cabin">المسافرون ودرجة السفر</string>
+    <string name="passengers_baby">أطفال صغار</string>
+    <string name="passengers_enfant">أطفال</string>
+    <string name="passport_information">معلومات جواز السفر</string>
+    <string name="payment">الدفع</string>
+    <string name="permission_camera_rationale">الكاميرا مطلوبة لمسح منطقة القراءة الآلية في جواز السفر.</string>
+    <string name="placeholder_square">⬜</string>
+    <string name="price_format">%1$s ريال</string>
+    <string name="qr_code">رمز الاستجابة السريعة</string>
+    <string msgid="5941395253238309765" name="range_end">"نهاية النطاق"</string>
+    <string msgid="7097486360902471446" name="range_start">"بداية النطاق"</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="return_flight">العودة</string>
+    <string name="return_flight_label">رحلة العودة</string>
+    <string name="return_flight_title">رحلة العودة</string>
+    <string name="return_flights">رحلات العودة</string>
+    <string name="rotation_x_animation">دوران س</string>
+    <string name="rotation_y_animation">دوران ص</string>
+    <string name="round_trip">ذهاب وعودة</string>
+    <string name="round_trip_text">ذهاب وعودة</string>
+    <string name="route_format">%2$s ← %1$s</string>
+    <string name="save">حفظ</string>
+    <string name="scale_animation">المقياس</string>
+    <string name="scan_demo">مسح (تجريبي)</string>
+    <string name="scan_mrz">مسح منطقة القراءة الآلية</string>
+    <string name="scan_mrz_description">ضع منطقة القراءة الآلية (MRZ) في جواز السفر في الإطار لمسح المعلومات تلقائياً.</string>
+    <string name="search">بحث</string>
+    <string name="search_destination">البحث عن وجهة...</string>
+    <string name="search_flights">البحث عن رحلات</string>
+    <string name="search_flights_text">البحث عن رحلات</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
+    <string name="select_dates">اختر تواريخ سفرك</string>
+    <string name="select_dates_title">اختر تواريخك</string>
+    <string name="select_departure_destination">اختر المغادرة أو الوجهة</string>
+    <string name="select_travel_dates">اختر تواريخ سفرك</string>
+    <string name="select_your_dates">اختر تواريخك</string>
+    <string msgid="6043586758067023" name="selected">"محدّد"</string>
+    <string name="selected_outbound_flight">رحلة الذهاب المحددة</string>
+    <string name="selected_outbound_flight_label">رحلة الذهاب المحددة</string>
+    <string name="selected_return_flight">رحلة العودة المحددة</string>
+    <string name="selected_return_flight_label">رحلة العودة المحددة</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"تنبيه"</string>
+    <string name="starting_from">ابتداءً من %1$s ريال</string>
+    <string msgid="4139871816613051306" name="state_empty">"حقل فارغ"</string>
+    <string msgid="5834637030682409883" name="state_off">"غير مفعَّل"</string>
+    <string msgid="1490883874751719580" name="state_on">"مفعَّل"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="swap_destinations">تبديل</string>
+    <string msgid="2561197295334830845" name="switch_role">"تبديل"</string>
+    <string msgid="1672349317127674378" name="tab">"علامة تبويب"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> في المئة."</string>
+    <string name="to_destination">إلى الوجهة</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"تلميح"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"إظهار التلميح"</string>
+    <string name="travel_dates">تواريخ السفر</string>
+    <string name="traveler_information">معلومات المسافر</string>
+    <string name="trip_type">نوع الرحلة</string>
+    <string name="trip_type_text">نوع الرحلة</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="view_all">عرض الكل →</string>
+    <string name="view_all_text">عرض الكل</string>
+    <string name="welcome">أهلاً وسهلاً،</string>
+    <string name="where_do_you_want_to_go">إلى أين تريد أن تذهب؟</string>
+    <string name="xp">النقاط</string>
+    <string name="xp_progress_animation">تقدم النقاط</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">RiyadhAir</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera_rationale">Camera is required to scan passport MRZ.</string>
+</resources>

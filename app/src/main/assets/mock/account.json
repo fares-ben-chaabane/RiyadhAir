@@ -1,0 +1,17 @@
+{
+  "id": "user123",
+  "firstName": "Fares",
+  "lastName": "Ben Chaabane",
+  "email": "fares@riyadhair.com",
+  "phoneNumber": "+966123456789",
+  "loyaltyLevel": {
+    "name": "Silver",
+    "tier": "Silver",
+    "color": "#C0C0C0"
+  },
+  "milesPoints": 9355,
+  "xpPoints": 96,
+  "profileImageUrl": "https://example.com/profile.jpg",
+  "preferredLanguage": "en",
+  "currentLocation": "Paris"
+}

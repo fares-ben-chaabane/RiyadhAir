@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class fr.benchaabane.riyadhair.presentation.account.AccountViewModel

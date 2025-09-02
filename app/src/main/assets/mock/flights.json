@@ -1,0 +1,628 @@
+{
+  "flights": [
+    {
+      "id": "RA001",
+      "flightNumber": "RX101",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport",
+        "city": "Jeddah",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-15T08:15:00Z",
+      "arrivalTime": "2024-07-15T10:45:00Z",
+      "duration": "1h 45m",
+      "price": 150.00,
+      "currency": "SAR",
+      "cabinClass": "Economy",
+      "availableSeats": 120,
+      "aircraft": "Airbus A320",
+      "stops": []
+    },
+    {
+      "id": "RA003",
+      "flightNumber": "RX103",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport",
+        "city": "Jeddah",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-15T10:52:00Z",
+      "arrivalTime": "2024-07-15T12:45:00Z",
+      "duration": "1h 45m",
+      "price": 150.00,
+      "currency": "SAR",
+      "cabinClass": "Economy",
+      "availableSeats": 5,
+      "aircraft": "Airbus A320",
+      "stops": []
+    },
+    {
+      "id": "RA002",
+      "flightNumber": "RX102",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport",
+        "city": "Jeddah",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "DMM",
+        "name": "King Fahd International Airport",
+        "city": "Dammam",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-15T11:00:00Z",
+      "arrivalTime": "2024-07-15T12:30:00Z",
+      "duration": "1h 30m",
+      "price": 120.50,
+      "currency": "SAR",
+      "cabinClass": "Business",
+      "availableSeats": 40,
+      "aircraft": "Boeing 737",
+      "stops": []
+    },
+    {
+      "id": "RA032",
+      "flightNumber": "RX102",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport",
+        "city": "Jeddah",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-15T11:23:00Z",
+      "arrivalTime": "2024-07-15T12:35:00Z",
+      "duration": "1h 30m",
+      "price": 120.50,
+      "currency": "SAR",
+      "cabinClass": "Business",
+      "availableSeats": 40,
+      "aircraft": "Boeing 737",
+      "stops": []
+    },
+    {
+      "id": "RA003",
+      "flightNumber": "RX201",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport",
+        "city": "Dubai",
+        "country": "UAE",
+        "timezone": "Asia/Dubai"
+      },
+      "departureTime": "2024-07-16T10:00:00Z",
+      "arrivalTime": "2024-07-16T13:00:00Z",
+      "duration": "2h 00m",
+      "price": 450.00,
+      "currency": "AED",
+      "cabinClass": "First Class",
+      "availableSeats": 10,
+      "aircraft": "Airbus A380",
+      "stops": []
+    },
+    {
+      "id": "RA004",
+      "flightNumber": "RX202",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport",
+        "city": "Dubai",
+        "country": "UAE",
+        "timezone": "Asia/Dubai"
+      },
+      "arrivalAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-16T15:00:00Z",
+      "arrivalTime": "2024-07-16T16:00:00Z",
+      "duration": "2h 00m",
+      "price": 430.00,
+      "currency": "AED",
+      "cabinClass": "Economy",
+      "availableSeats": 150,
+      "aircraft": "Airbus A321",
+      "stops": []
+    },
+    {
+      "id": "RA005",
+      "flightNumber": "RX301",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "DMM",
+        "name": "King Fahd International Airport",
+        "city": "Dammam",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport",
+        "city": "Cairo",
+        "country": "Egypt",
+        "timezone": "Africa/Cairo"
+      },
+      "departureTime": "2024-07-17T09:30:00Z",
+      "arrivalTime": "2024-07-17T12:00:00Z",
+      "duration": "3h 30m",
+      "price": 600.00,
+      "currency": "SAR",
+      "cabinClass": "Premium Economy",
+      "availableSeats": 50,
+      "aircraft": "Boeing 787",
+      "stops": []
+    },
+    {
+      "id": "RA006",
+      "flightNumber": "RX302",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport",
+        "city": "Cairo",
+        "country": "Egypt",
+        "timezone": "Africa/Cairo"
+      },
+      "arrivalAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-17T14:00:00Z",
+      "arrivalTime": "2024-07-17T17:00:00Z",
+      "duration": "3h 00m",
+      "price": 580.00,
+      "currency": "SAR",
+      "cabinClass": "Business",
+      "availableSeats": 30,
+      "aircraft": "Boeing 787",
+      "stops": []
+    },
+    {
+      "id": "RA007",
+      "flightNumber": "RX401",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "UK",
+        "timezone": "Europe/London"
+      },
+      "departureTime": "2024-07-18T01:00:00Z",
+      "arrivalTime": "2024-07-18T06:30:00Z",
+      "duration": "7h 30m",
+      "price": 1200.00,
+      "currency": "GBP",
+      "cabinClass": "Economy",
+      "availableSeats": 200,
+      "aircraft": "Airbus A350",
+      "stops": []
+    },
+    {
+      "id": "RA008",
+      "flightNumber": "RX402",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "UK",
+        "timezone": "Europe/London"
+      },
+      "arrivalAirport": {
+        "code": "CDG",
+        "name": "Charles de Gaulle Airport",
+        "city": "Paris",
+        "country": "France",
+        "timezone": "Europe/Paris"
+      },
+      "departureTime": "2024-07-18T09:00:00Z",
+      "arrivalTime": "2024-07-18T11:20:00Z",
+      "duration": "1h 20m",
+      "price": 150.00,
+      "currency": "EUR",
+      "cabinClass": "Economy",
+      "availableSeats": 80,
+      "aircraft": "Airbus A319",
+      "stops": []
+    },
+    {
+      "id": "RA009",
+      "flightNumber": "RX403",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "CDG",
+        "name": "Charles de Gaulle Airport",
+        "city": "Paris",
+        "country": "France",
+        "timezone": "Europe/Paris"
+      },
+      "arrivalAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-18T14:00:00Z",
+      "arrivalTime": "2024-07-18T21:00:00Z",
+      "duration": "6h 00m",
+      "price": 1100.00,
+      "currency": "EUR",
+      "cabinClass": "Premium Economy",
+      "availableSeats": 45,
+      "aircraft": "Airbus A350",
+      "stops": []
+    },
+    {
+      "id": "RA010",
+      "flightNumber": "RX501",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport",
+        "city": "Jeddah",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "timezone": "Europe/Istanbul"
+      },
+      "departureTime": "2024-07-19T13:00:00Z",
+      "arrivalTime": "2024-07-19T17:00:00Z",
+      "duration": "4h 00m",
+      "price": 700.00,
+      "currency": "SAR",
+      "cabinClass": "Business",
+      "availableSeats": 35,
+      "aircraft": "Boeing 777",
+      "stops": []
+    },
+    {
+      "id": "RA011",
+      "flightNumber": "RX502",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "timezone": "Europe/Istanbul"
+      },
+      "arrivalAirport": {
+        "code": "MED",
+        "name": "Prince Mohammad bin Abdulaziz Airport",
+        "city": "Medina",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-19T19:00:00Z",
+      "arrivalTime": "2024-07-19T22:30:00Z",
+      "duration": "3h 30m",
+      "price": 650.00,
+      "currency": "SAR",
+      "cabinClass": "Economy",
+      "availableSeats": 100,
+      "aircraft": "Airbus A320",
+      "stops": []
+    },
+    {
+      "id": "RA012",
+      "flightNumber": "RX601",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "MED",
+        "name": "Prince Mohammad bin Abdulaziz Airport",
+        "city": "Medina",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-20T07:00:00Z",
+      "arrivalTime": "2024-07-20T08:30:00Z",
+      "duration": "1h 30m",
+      "price": 180.00,
+      "currency": "SAR",
+      "cabinClass": "Economy",
+      "availableSeats": 110,
+      "aircraft": "Boeing 737",
+      "stops": []
+    },
+    {
+      "id": "RA013",
+      "flightNumber": "RX701",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport",
+        "city": "New York",
+        "country": "USA",
+        "timezone": "America/New_York"
+      },
+      "departureTime": "2024-07-21T02:00:00Z",
+      "arrivalTime": "2024-07-21T08:00:00Z",
+      "duration": "14h 00m",
+      "price": 2500.00,
+      "currency": "USD",
+      "cabinClass": "First Class",
+      "availableSeats": 8,
+      "aircraft": "Boeing 777X",
+      "stops": []
+    },
+    {
+      "id": "RA014",
+      "flightNumber": "RX702",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport",
+        "city": "New York",
+        "country": "USA",
+        "timezone": "America/New_York"
+      },
+      "arrivalAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-21T22:00:00Z",
+      "arrivalTime": "2024-07-22T17:00:00Z",
+      "duration": "13h 00m",
+      "price": 2400.00,
+      "currency": "USD",
+      "cabinClass": "Business",
+      "availableSeats": 25,
+      "aircraft": "Boeing 777X",
+      "stops": []
+    },
+    {
+      "id": "RA015",
+      "flightNumber": "RX801",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "SIN",
+        "name": "Singapore Changi Airport",
+        "city": "Singapore",
+        "country": "Singapore",
+        "timezone": "Asia/Singapore"
+      },
+      "departureTime": "2024-07-23T10:30:00Z",
+      "arrivalTime": "2024-07-23T23:00:00Z",
+      "duration": "8h 30m",
+      "price": 1800.00,
+      "currency": "SGD",
+      "cabinClass": "Premium Economy",
+      "availableSeats": 55,
+      "aircraft": "Airbus A350",
+      "stops": []
+    },
+    {
+      "id": "RA016",
+      "flightNumber": "RX802",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "SIN",
+        "name": "Singapore Changi Airport",
+        "city": "Singapore",
+        "country": "Singapore",
+        "timezone": "Asia/Singapore"
+      },
+      "arrivalAirport": {
+        "code": "SYD",
+        "name": "Sydney Kingsford Smith Airport",
+        "city": "Sydney",
+        "country": "Australia",
+        "timezone": "Australia/Sydney"
+      },
+      "departureTime": "2024-07-24T01:00:00Z",
+      "arrivalTime": "2024-07-24T11:30:00Z",
+      "duration": "8h 30m",
+      "price": 1500.00,
+      "currency": "AUD",
+      "cabinClass": "Economy",
+      "availableSeats": 180,
+      "aircraft": "Airbus A350",
+      "stops": []
+    },
+    {
+      "id": "RA017",
+      "flightNumber": "RX803",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "SYD",
+        "name": "Sydney Kingsford Smith Airport",
+        "city": "Sydney",
+        "country": "Australia",
+        "timezone": "Australia/Sydney"
+      },
+      "arrivalAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-24T20:00:00Z",
+      "arrivalTime": "2024-07-25T05:00:00Z",
+      "duration": "17h 00m",
+      "price": 3000.00,
+      "currency": "AUD",
+      "cabinClass": "Business",
+      "availableSeats": 28,
+      "aircraft": "Boeing 777",
+      "stops": [
+        {
+          "code": "DXB",
+          "name": "Dubai International Airport",
+          "city": "Dubai",
+          "country": "UAE",
+          "timezone": "Asia/Dubai"
+        }
+      ]
+    },
+    {
+      "id": "RA018",
+      "flightNumber": "RX901",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "KUL",
+        "name": "Kuala Lumpur International Airport",
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "timezone": "Asia/Kuala_Lumpur"
+      },
+      "departureTime": "2024-07-26T16:00:00Z",
+      "arrivalTime": "2024-07-27T03:30:00Z",
+      "duration": "7h 30m",
+      "price": 900.00,
+      "currency": "MYR",
+      "cabinClass": "Economy",
+      "availableSeats": 130,
+      "aircraft": "Airbus A330",
+      "stops": []
+    },
+    {
+      "id": "RA019",
+      "flightNumber": "RX902",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "KUL",
+        "name": "Kuala Lumpur International Airport",
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "timezone": "Asia/Kuala_Lumpur"
+      },
+      "arrivalAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport",
+        "city": "Jeddah",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-27T09:00:00Z",
+      "arrivalTime": "2024-07-27T13:00:00Z",
+      "duration": "8h 00m",
+      "price": 850.00,
+      "currency": "MYR",
+      "cabinClass": "Premium Economy",
+      "availableSeats": 60,
+      "aircraft": "Airbus A330",
+      "stops": []
+    },
+    {
+      "id": "RA020",
+      "flightNumber": "RX1001",
+      "airline": "RiyadhAir",
+      "departureAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "arrivalAirport": {
+        "code": "AHB",
+        "name": "Abha Regional Airport",
+        "city": "Abha",
+        "country": "Saudi Arabia",
+        "timezone": "Asia/Riyadh"
+      },
+      "departureTime": "2024-07-28T14:30:00Z",
+      "arrivalTime": "2024-07-28T16:00:00Z",
+      "duration": "1h 30m",
+      "price": 200.00,
+      "currency": "SAR",
+      "cabinClass": "Economy",
+      "availableSeats": 90,
+      "aircraft": "Embraer E190",
+      "stops": []
+    }
+  ]
+}

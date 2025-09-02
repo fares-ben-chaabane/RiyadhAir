@@ -1,0 +1,70 @@
+{
+  "partners": [
+    {
+      "id": "partner1",
+      "name": "Hertz",
+      "category": "CAR_RENTAL",
+      "imageUrl": "https://images.unsplash.com/photo-1549924231-f129b911e442?w=300&h=300&fit=crop",
+      "description": "Louez une voiture avec Hertz",
+      "benefits": ["Profitez de -15% et gagnez jusqu'à 12 Miles par euro dépensé"],
+      "discountPercentage": 15,
+      "websiteUrl": "https://hertz.com",
+      "isActive": true
+    },
+    {
+      "id": "partner2",
+      "name": "Orange",
+      "category": "INTERNET",
+      "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop",
+      "description": "Connexion internet en voyage",
+      "benefits": ["Connexion haut débit", "Forfaits spéciaux voyageurs"],
+      "discountPercentage": 20,
+      "websiteUrl": "https://orange.com",
+      "isActive": true
+    },
+    {
+      "id": "partner3",
+      "name": "ParkingGo",
+      "category": "PARKING",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop",
+      "description": "Parking sécurisé à l'aéroport",
+      "benefits": ["Parking couvert", "Service navette gratuit", "Sécurité 24h/24"],
+      "discountPercentage": 25,
+      "websiteUrl": "https://parkinggo.com",
+      "isActive": true
+    },
+    {
+      "id": "partner4",
+      "name": "Marriott",
+      "category": "HOTEL",
+      "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=300&h=300&fit=crop",
+      "description": "Hôtels de luxe dans le monde",
+      "benefits": ["Points de fidélité", "Surclassement gratuit", "Petit-déjeuner offert"],
+      "discountPercentage": 10,
+      "websiteUrl": "https://marriott.com",
+      "isActive": true
+    },
+    {
+      "id": "partner5",
+      "name": "Allianz Travel",
+      "category": "INSURANCE",
+      "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=300&h=300&fit=crop",
+      "description": "Assurance voyage complète",
+      "benefits": ["Couverture mondiale", "Assistance 24h/24", "Remboursement rapide"],
+      "discountPercentage": 30,
+      "websiteUrl": "https://allianz-travel.com",
+      "isActive": true
+    },
+    {
+      "id": "partner6",
+      "name": "Duty Free",
+      "category": "SHOPPING",
+      "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=300&h=300&fit=crop",
+      "description": "Shopping duty-free",
+      "benefits": ["Prix hors taxes", "Marques de luxe", "Livraison à bord"],
+      "websiteUrl": "https://dutyfree.com",
+      "isActive": true,
+      "discountPercentage": 30
+    }
+  ]
+}
