@@ -46,7 +46,7 @@ class SearchViewModelTest {
     @Test
     fun `SearchViewModel should initialize with empty state`() = runTest {
         // When
-        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase)
+        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase, testDispatcher)
         advanceUntilIdle()
 
         // Then
@@ -92,7 +92,7 @@ class SearchViewModelTest {
         coEvery { mockSearchFlightsUseCase.invoke(origin = "JFK", destination = "CDG") } returns Result.success(mockFlights)
 
         // When
-        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase)
+        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase, testDispatcher)
         viewModel.search("CDG", "JFK")
         advanceUntilIdle()
 
@@ -110,7 +110,7 @@ class SearchViewModelTest {
         coEvery { mockSearchFlightsUseCase.invoke(origin = "JFK", destination = "CDG") } returns Result.failure(Exception("Network error"))
 
         // When
-        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase)
+        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase, testDispatcher)
         viewModel.search("CDG", "JFK")
         advanceUntilIdle()
 
@@ -140,7 +140,7 @@ class SearchViewModelTest {
         )
 
         // When
-        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase)
+        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase, testDispatcher)
         viewModel.selectDepartureFlight(mockFlight)
         advanceUntilIdle()
 
@@ -169,7 +169,7 @@ class SearchViewModelTest {
         )
 
         // When
-        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase)
+        viewModel = SearchViewModel(mockSearchFlightsUseCase, mockGetFlightDetailsUseCase, testDispatcher)
         viewModel.selectReturnFlight(mockFlight)
         advanceUntilIdle()
 

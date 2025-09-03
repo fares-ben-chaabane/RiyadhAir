@@ -63,7 +63,8 @@ class HomeViewModelTest {
         viewModel = HomeViewModel(
             mockGetAccountUseCase,
             mockGetBestOffersUseCase,
-            mockGetPartnersUseCase
+            mockGetPartnersUseCase,
+            testDispatcher
         )
         advanceUntilIdle()
 
@@ -100,7 +101,8 @@ class HomeViewModelTest {
         viewModel = HomeViewModel(
             mockGetAccountUseCase,
             mockGetBestOffersUseCase,
-            mockGetPartnersUseCase
+            mockGetPartnersUseCase,
+            testDispatcher
         )
         advanceUntilIdle()
 
@@ -145,7 +147,8 @@ class HomeViewModelTest {
         viewModel = HomeViewModel(
             mockGetAccountUseCase,
             mockGetBestOffersUseCase,
-            mockGetPartnersUseCase
+            mockGetPartnersUseCase,
+            testDispatcher
         )
         advanceUntilIdle()
 
@@ -178,7 +181,8 @@ class HomeViewModelTest {
         viewModel = HomeViewModel(
             mockGetAccountUseCase,
             mockGetBestOffersUseCase,
-            mockGetPartnersUseCase
+            mockGetPartnersUseCase,
+            testDispatcher
         )
         advanceUntilIdle()
 
@@ -200,7 +204,8 @@ class HomeViewModelTest {
         viewModel = HomeViewModel(
             mockGetAccountUseCase,
             mockGetBestOffersUseCase,
-            mockGetPartnersUseCase
+            mockGetPartnersUseCase,
+            testDispatcher
         )
         advanceUntilIdle()
 

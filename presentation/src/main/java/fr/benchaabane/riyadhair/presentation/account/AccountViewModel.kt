@@ -3,7 +3,10 @@ package fr.benchaabane.riyadhair.presentation.account
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
+import fr.benchaabane.riyadhair.core.dispatcher.BackgroundDispatcher
 import fr.benchaabane.riyadhair.domain.account.usecases.GetAccountUseCase
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -64,6 +67,8 @@ import javax.inject.Inject
 @HiltViewModel
 class AccountViewModel @Inject constructor(
     private val getAccountUseCase: GetAccountUseCase,
+    @BackgroundDispatcher
+    private val backgroundDispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(AccountUiState())
@@ -95,7 +100,7 @@ class AccountViewModel @Inject constructor(
      * and automatic cancellation when the ViewModel is cleared.
      */
     private fun observeAccount() {
-        viewModelScope.launch {
+        viewModelScope.launch(backgroundDispatcher) {
             getAccountUseCase.invoke()
                 .onSuccess { account ->
                     _uiState.update {

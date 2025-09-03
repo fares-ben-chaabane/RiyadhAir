@@ -3,12 +3,15 @@ package fr.benchaabane.riyadhair.presentation.home
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
+import fr.benchaabane.riyadhair.core.dispatcher.BackgroundDispatcher
 import fr.benchaabane.riyadhair.domain.account.usecases.GetAccountUseCase
 import fr.benchaabane.riyadhair.domain.offers.usecases.GetBestOffersUseCase
 import fr.benchaabane.riyadhair.domain.partners.usecases.GetPartnersUseCase
 import fr.benchaabane.riyadhair.presentation.account.toUi
 import fr.benchaabane.riyadhair.presentation.offers.toUi
 import fr.benchaabane.riyadhair.presentation.partners.toUi
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -62,6 +65,8 @@ class HomeViewModel @Inject constructor(
     private val getAccountUseCase: GetAccountUseCase,
     private val getBestOffersUseCase: GetBestOffersUseCase,
     private val getPartnersUseCase: GetPartnersUseCase,
+    @BackgroundDispatcher
+    private val backgroundDispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : ViewModel() {
 
     /**
@@ -119,7 +124,7 @@ class HomeViewModel @Inject constructor(
      * - Triggers UI recomposition for account display
      */
     private fun observeAccount() {
-        viewModelScope.launch {
+        viewModelScope.launch(backgroundDispatcher) {
             getAccountUseCase.invoke()
                 .onSuccess { account ->
                     _uiState.update {
@@ -159,7 +164,7 @@ class HomeViewModel @Inject constructor(
      * - Triggers UI recomposition for offers display
      */
     private fun observeBestOffers() {
-        viewModelScope.launch {
+        viewModelScope.launch(backgroundDispatcher) {
             getBestOffersUseCase.invoke()
                 .onSuccess { bestOffers ->
                     _uiState.update {
@@ -198,7 +203,7 @@ class HomeViewModel @Inject constructor(
      * - Triggers UI recomposition for partners display
      */
     private fun observePartners() {
-        viewModelScope.launch {
+        viewModelScope.launch(backgroundDispatcher) {
             getPartnersUseCase.invoke()
                 .onSuccess { partners ->
                     _uiState.update {
@@ -212,27 +217,6 @@ class HomeViewModel @Inject constructor(
                 }
         }
     }
-
-    /*private fun observeData() {
-        viewModelScope.launch {
-            combine(
-                getAccountUseCase(),
-            ) { account ->
-                _uiState.update {
-                    _uiState.value.copy(
-                        account = account,
-                        isLoadingAccount = false,
-                        isLoadingOffers = false,
-                        isLoadingPartners = false,
-                        accountError = null,
-                        offersError = null,
-                        partnersError = null
-                    )
-                }
-
-            }.collect { }
-        }
-    }*/
 
     /**
      * Starts the offers carousel with automatic rotation.

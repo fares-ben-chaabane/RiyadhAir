@@ -43,7 +43,7 @@ class AccountViewModelTest {
         coEvery { mockGetAccountUseCase.invoke() } returns Result.success(null)
 
         // When
-        viewModel = AccountViewModel(mockGetAccountUseCase)
+        viewModel = AccountViewModel(mockGetAccountUseCase, testDispatcher)
         advanceUntilIdle()
 
         // Then
@@ -72,7 +72,7 @@ class AccountViewModelTest {
         coEvery { mockGetAccountUseCase.invoke() } returns Result.success(mockAccount)
 
         // When
-        viewModel = AccountViewModel(mockGetAccountUseCase)
+        viewModel = AccountViewModel(mockGetAccountUseCase, testDispatcher)
         advanceUntilIdle()
 
         // Then
@@ -88,12 +88,11 @@ class AccountViewModelTest {
         coEvery { mockGetAccountUseCase.invoke() } returns Result.failure(Exception("Network error"))
 
         // When
-        viewModel = AccountViewModel(mockGetAccountUseCase)
+        viewModel = AccountViewModel(mockGetAccountUseCase, testDispatcher)
         advanceUntilIdle()
 
         // Then
         val state = viewModel.uiState.value
         state.account shouldBeEqualTo null
-        // Should not crash
     }
 }

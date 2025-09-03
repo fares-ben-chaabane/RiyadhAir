@@ -3,8 +3,11 @@ package fr.benchaabane.riyadhair.presentation.search
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
+import fr.benchaabane.riyadhair.core.dispatcher.BackgroundDispatcher
 import fr.benchaabane.riyadhair.domain.flights.usecases.GetFlightDetailsUseCase
 import fr.benchaabane.riyadhair.domain.flights.usecases.SearchFlightsUseCase
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asSharedFlow
@@ -54,6 +57,8 @@ import javax.inject.Inject
 class SearchViewModel @Inject constructor(
     private val searchFlightsUseCase: SearchFlightsUseCase,
     private val getFlightDetailsUseCase: GetFlightDetailsUseCase,
+    @BackgroundDispatcher
+    private val backgroundDispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(SearchState())
@@ -96,7 +101,7 @@ class SearchViewModel @Inject constructor(
      * @param to The destination airport code
      */
     fun search(from: String, to: String) {
-        viewModelScope.launch {
+        viewModelScope.launch(backgroundDispatcher) {
             searchFlightsUseCase.invoke(origin = from, destination = to)
                 .onSuccess { flights ->
                     _state.update {
@@ -156,7 +161,7 @@ class SearchViewModel @Inject constructor(
      * @param returnFlightNumber The flight number for the return flight
      */
     fun getFlightDetails(outBoundFlightNumber: String, returnFlightNumber: String) {
-        viewModelScope.launch {
+        viewModelScope.launch(backgroundDispatcher) {
             getFlightDetailsUseCase.invoke(flightNumber = outBoundFlightNumber)
                 .onSuccess { flight ->
                     _state.update {
